@@ -1,0 +1,310 @@
+
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face
+{
+    font-family: 'national-regular';
+				src: url('../fonts/national-regular.eot');
+				src: url('../fonts/national-regular.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/national-regular.woff') format('woff'),
+						 url('../fonts/national-regular.ttf') format('truetype'),
+						 url('../fonts/national-regular.svg#national-regular') format('svg');
+				font-weight: normal;
+				font-style: normal;
+				
+}
+
+@font-face
+{
+    font-family: 'national-bold';
+				src: url('../fonts/national-bold.eot');
+				src: url('../fonts/national-bold.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/national-bold.woff') format('woff'),
+						 url('../fonts/national-bold.ttf') format('truetype'),
+						 url('../fonts/national-bold.svg#national-bold') format('svg');
+				font-weight: normal;
+				font-style: normal;
+				
+}
+
+@font-face
+{
+    font-family: 'national-light';
+				src: url('../fonts/national-light.eot');
+				src: url('../fonts/national-light.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/national-light.woff') format('woff'),
+						 url('../fonts/national-light.ttf') format('truetype'),
+						 url('../fonts/national-light.svg#national-light') format('svg');
+				font-weight: normal;
+				font-style: normal;
+				
+}
+
+
+
+    
+::-moz-selection {
+    background: #ff3600;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+::selection {
+    
+    background: #ff3600;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ff3600;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 30px;
+}
+
+.mb {
+	margin-bottom: 30px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'national-light';
+    font-size: 26px;
+    color: #7c7c7c;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h2, h3 {
+}
+h1 {
+    font-family: 'national-light';
+    color: #2c2c2c;
+    font-size:22px;
+}
+
+h4 {
+    
+    font-family: 'national-light';
+    color: #2c2c2c;
+    font-size:26px;
+}
+
+h5 {
+    
+    font-family: 'national-light';
+    color: #ff3600;
+    font-size:26px;
+}
+
+h6 {
+    font-family: 'national-light';
+    color: #ff3600;
+    font-size:26px;
+    font-weight: 800;
+    
+}
+
+.navbar-brand {
+    font-family: 'national-regular';
+    font-size: 16px;
+    color: #ff3600;
+
+}
+
+.navbar-default .navbar-brand {
+	color: #ff3600;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ff3600;
+	background-color: transparent;
+	
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #7c7c7c;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	
+	margin-top: -200px;
+	padding-top: 260px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+	color: #1abc9c
+}
+
+#footer{
+	 padding-bottom: 30px;   
+    background-color: #ffffff;
+}
+
+#footer p {
+	color: #7c7c7c;
+	
+}
+
+#workwrap {	
+	background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: px;
+	width: 100%;
+	
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff;
+}
+
+#aboutwrap {	
+	background: url(../img/about.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+/* Gallery */
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img:hover {
+    
+	opacity: .5;
+	
+	position:relative;
+	overflow:hidden;  
+  
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+
+
+
+ 
+
+ 
+
+
+
+
